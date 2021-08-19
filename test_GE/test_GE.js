@@ -24,8 +24,8 @@ function get(){
     url: "https://script.google.com/macros/s/AKfycbzCotqwQiQJ5TGv3KNdwPGFRbYjTYmROArUjSgUn7WNDhL8AFAsnvV-bXa_VOedTRiZ/exec",
     type: "POST",
     success: function(response) {
+      $("#show").empty();
       let show = document.querySelector('#show');
-      show.empty();
       show.append(response);
     },
   });
