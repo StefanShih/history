@@ -4,7 +4,7 @@ function send() {
   let name = document.querySelector('#name').value;
   let demand = document.querySelector('#demand').value;
   $.ajax({
-    url: "https://script.google.com/macros/s/AKfycbwe9hS86buvGU7L5y1-03dpPn3ZvXNMaOU0ABF6hxfdtqR_lfJTc1ry1HOruHzR40lI/exec",
+    url: "https://script.google.com/macros/s/AKfycbwiKBpstJf-B59lG2xqOVUtFatuV9HaceqcsEtHluZgqteSmMIYxm1gPpM0NTfXmuCB/exec",
     data: {
         "name": name,
         "demand": demand
