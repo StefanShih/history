@@ -1,4 +1,5 @@
 let sendButton = document.querySelector('button');
+let getShow = document.querySelector('#getShow');
 
 function send() {
   let name = document.querySelector('#name').value;
@@ -18,4 +19,16 @@ function send() {
   });
 };
 
+function get(){
+  $.ajax({
+    url: "https://script.google.com/macros/s/AKfycbzCotqwQiQJ5TGv3KNdwPGFRbYjTYmROArUjSgUn7WNDhL8AFAsnvV-bXa_VOedTRiZ/exec",
+    type: "POST",
+    success: function(response) {
+      let show = document.querySelector('#show');
+      show.append(response);
+    },
+  });
+}
+
 sendButton.addEventListener('click', send);
+getShow.addEventListener('click', get);
