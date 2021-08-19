@@ -25,6 +25,7 @@ function get(){
     type: "POST",
     success: function(response) {
       let show = document.querySelector('#show');
+      show.empty();
       show.append(response);
     },
   });
