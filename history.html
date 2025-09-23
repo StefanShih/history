@@ -1,479 +1,488 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>history</title>
-	</head>
-
-	<body>
-		<div>
-			<span style="color:blue;">2024-04-26</span> v
-			<span style="color:red;">6.2.08</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正SFileList SFTP 功能
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2024-04-25</span> v
-			<span style="color:red;">6.2.07</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.調整SFTP timeout/通訊內容 問題
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.增加SFileList SFTP 功能
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2022-09-23</span> v
-			<span style="color:red;">6.2.06</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正問題
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2022-09-21</span> v
-			<span style="color:red;">6.2.05</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正FileList分頁 醜化js 只需送js檔案
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2022-09-12</span> v
-			<span style="color:red;">6.2.04</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.FileList分頁 新增上傳前執行檔案功能(for醜化js)
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2022-09-08</span> v
-			<span style="color:red;">6.2.03</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.FileList分頁 新增SFTP功能(其他類別待補)
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2022-04-23</span> v
-			<span style="color:red;">6.2.02</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.調整版面顏色配置
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.新增ftp介面報錯判斷
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2022-03-30</span> v
-			<span style="color:red;">6.2.01</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正bug
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2022-03-30</span> v
-			<span style="color:red;">6.1.08</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正SFileList 電腦狀態列快速上傳無作用
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2022-03-29</span> v
-			<span style="color:red;">6.1.07</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正跳板連線非正常中斷 畫面會刷新重置
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.電腦狀態列增加 快速上傳功能
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2022-03-28</span> v
-			<span style="color:red;">6.1.06</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增已連線跳板可共用功能
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2021-02-07</span> v
-			<span style="color:red;">6.1.05</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.將加密動作改成動態鏈接庫的方式存取
-		</div>
-		
-		<br/>
-
-		<div>
-			<span style="color:blue;">2021-01-20</span> v
-			<span style="color:red;">6.1.04</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.針對pwd.json作加密動作
-		</div>
-		
-		<br/>
-
-		<div>
-			<span style="color:blue;">2020-06-22</span> v
-			<span style="color:red;">6.1.03</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.移除轉換密碼功能
-		</div>
-		
-		<br/>
-
-		<div>
-			<span style="color:blue;">2020-06-21</span> v
-			<span style="color:red;">6.1.02</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.移除紀錄程序啟動階段log
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.轉換密碼功能改由熱鍵(command+r)開啟選擇視窗 同時複製到剪貼簿和自動輸入終端機 備註: 複製user > command+r > 選 > 哦~
-		</div>
-		
-		<br/>
-
-		<div>
-			<span style="color:blue;">2020-06-15</span> v
-			<span style="color:red;">6.1.00</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.紀錄程序啟動階段log
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.增加固定10分鐘自動儲存.sav和.grp 儲存於sav資料夾內備份用
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.增加FileList頁面可將剪貼簿裡的內容轉換成密碼的功能 ex: ssh ips, xxx ssh ips@xxx
-		</div>
-		
-		<br/>
-
-		<div>
-			<span style="color:blue;">2020-04-08</span> v
-			<span style="color:red;">6.0.9</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加pwd.json使用mySelf字眼當作跳板密碼
-		</div>
-		
-		<br/>
-
-		<div>
-			<span style="color:blue;">2020-04-06</span> v
-			<span style="color:red;">6.0.8</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正無法登入某些機器問題
-		</div>
-		
-		<br/>
-
-		<div>
-			<span style="color:blue;">2020-01-22</span> v
-			<span style="color:red;">6.0.7</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增ENTER帶出密碼功能
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.增加下載使用過濾檔功能
-		</div>
-		
-		<br/>
-
-		<div>
-			<span style="color:blue;">2019-12-31</span> v
-			<span style="color:red;">6.0.6</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加未捕捉到的例外功能
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.增加pwd.json置換密碼功能
-		</div>
-		
-		<br/>
-
-		<div>
-			<span style="color:blue;">2019-06-11</span> v
-			<span style="color:red;">6.0.4</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加記憶跳板密碼功能
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加機器密碼複製功能
-		</div>
-		
-		<br/>
-		
-		<div>
-			<span style="color:blue;">2018-11-18</span> v
-			<span style="color:red;">6.0.3</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正keep跳板 & 延長至2分鐘ping一次
-		</div>
-		
-		<br/>
-
-		<div>
-			<span style="color:blue;">2018-11-17</span> v
-			<span style="color:red;">6.0.2</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增快速讀取功能(列表請放入FLqmore)
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.移除免登預設勾起
-		</div>
-		
-		<br/>
-
-		<div>
-			<span style="color:blue;">2018-05-17</span> v
-			<span style="color:red;">6.0.1</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.貼上來源資料內容將自動斷行且插入於最後
-		</div>
-		
-		<br/>
-
-		<div>
-			<span style="color:blue;">2018-04-16</span> v
-			<span style="color:red;">6.0.0</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增Group分頁功能 by ice
-		</div>
-		
-		<br/>
-
-		<div>
-			<span style="color:blue;">2018-04-10</span> v
-			<span style="color:red;">5.5.8</span>
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正多複製分頁 bug
-			<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.取消強制更新限制
-		</div>
-		
-		<br/>
-
-		<div>
-			<span style="color:blue;">2017-08-21</span> v<span style="color:red;">5.5.7</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正多複製分頁 bug
-		</div>
-
-		<br/>
-		
-		<div>
-			<span style="color:blue;">2017-08-10</span> v<span style="color:red;">5.5.6</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正免登取消勾取後畫面流程 bug
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2017-08-08</span> v<span style="color:red;">5.5.5</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正5.5.3 bug
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2017-08-08</span> v<span style="color:red;">5.5.3</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增分頁右鍵複製分頁功能
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.簡化FileList,SFileList頁面選項
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2017-06-30</span> v<span style="color:red;">5.5.2</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加FileList,DownloadList,SFileList 可選擇是否要使用免登檔案
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2017-01-19</span> v<span style="color:red;">5.5.0</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.調整Tab頁籤 可拖動
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.優化載入流程 提升用戶體驗
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2017-01-05</span> v<span style="color:red;">5.3.1</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加Tab頁籤 Save Tab功能至FLtab資料夾 & 讀.tab分頁
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.移除跳板去除名稱功能
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.調整FileList版本更新彈跳視窗介面
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-12-29</span> v<span style="color:red;">5.2.6</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加DownloadList頁面 多台機器下載按鈕使用AllFolder路徑
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-12-28</span> v<span style="color:red;">5.2.5</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正快速終端機登入BUG
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-12-28</span> v<span style="color:red;">5.2.4</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加QTerminalList頁面 可勾選無跳板機制
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-12-19</span> v<span style="color:red;">5.2.3</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加DownloadList頁面 讀取更多機器支援多下載功能
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-12-09</span> v<span style="color:red;">5.2.2</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加DownloadList頁面 保留在本機選項 且預設打勾
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.調整DownloadList頁面 保留在何處的字樣顯示
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-12-09</span> v<span style="color:red;">5.2.1</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正DownloadList頁面 讀取更多機器BUG
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-12-02</span> v<span style="color:red;">5.2.0</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加DownloadList頁面 快速終端機登入功能
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.增加DownloadList頁面 讀取更多機器
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-12-01</span> v<span style="color:red;">5.1.8</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加FileList頁面 下載可自訂壓縮檔名
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-11-03</span> v<span style="color:red;">5.1.7</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正SFileList頁面 解壓縮失敗bug
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-10-14</span> v<span style="color:red;">5.1.6</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.調整FileList,DownloadList,SFileList,QTerminalList頁面 上傳&下載功能 去除掉空白字元
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-10-14</span> v<span style="color:red;">5.1.5</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增自動更新完成後開啟更新項目網頁
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-10-06</span> v<span style="color:red;">5.1.4</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增QTerminalList頁面時間輸入框
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-10-05</span> v<span style="color:red;">5.1.3</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.調整上傳檔案失敗訊息
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-10-04</span> v<span style="color:red;">5.1.2</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增自動更新完成後重啟功能
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-10-04</span> v<span style="color:red;">5.1.1</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增tab頁籤滾輪事件
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-10-04</span> v<span style="color:red;">5.1.0</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增自動更新功能
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-09-23</span> v<span style="color:red;">5.0.2</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.調整頁籤標題
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-09-08</span> v<span style="color:red;">5.0.1</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.調整QTerminalList頁面成下拉捲軸方式
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2016-09-08</span> v<span style="color:red;">5.0.0</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增快速終端機登入功能
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.新增QTerminalList頁面
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2015-12-16</span> v<span style="color:red;">4.0.0</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增下載端口tar檔功能
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2015-11-30</span> v<span style="color:red;">3.0.0</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增上傳檔案功能
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2015-04-15</span> v<span style="color:red;">2.0.0</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FileList.jar
-		</div>
-
-		<br/>
-
-		<div>
-			<span style="color:blue;">2012-12-19</span> v<span style="color:red;">1.0.0</span>
-			<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FileList.html
-		</div>
-	</body>
+<head>
+    <title>history</title>
+</head>
+
+<body>
+<div>
+    <span style="color:blue;">2025-09-12</span> v
+    <span style="color:red;">6.3.0.0</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.支援 aws 機器登入
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.密碼列表功能載入失敗不影響神器使用
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2024-04-26</span> v
+    <span style="color:red;">6.2.08</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正SFileList SFTP 功能
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2024-04-25</span> v
+    <span style="color:red;">6.2.07</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.調整SFTP timeout/通訊內容 問題
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.增加SFileList SFTP 功能
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2022-09-23</span> v
+    <span style="color:red;">6.2.06</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正問題
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2022-09-21</span> v
+    <span style="color:red;">6.2.05</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正FileList分頁 醜化js 只需送js檔案
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2022-09-12</span> v
+    <span style="color:red;">6.2.04</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.FileList分頁 新增上傳前執行檔案功能(for醜化js)
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2022-09-08</span> v
+    <span style="color:red;">6.2.03</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.FileList分頁 新增SFTP功能(其他類別待補)
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2022-04-23</span> v
+    <span style="color:red;">6.2.02</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.調整版面顏色配置
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.新增ftp介面報錯判斷
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2022-03-30</span> v
+    <span style="color:red;">6.2.01</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正bug
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2022-03-30</span> v
+    <span style="color:red;">6.1.08</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正SFileList 電腦狀態列快速上傳無作用
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2022-03-29</span> v
+    <span style="color:red;">6.1.07</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正跳板連線非正常中斷 畫面會刷新重置
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.電腦狀態列增加 快速上傳功能
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2022-03-28</span> v
+    <span style="color:red;">6.1.06</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增已連線跳板可共用功能
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2021-02-07</span> v
+    <span style="color:red;">6.1.05</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.將加密動作改成動態鏈接庫的方式存取
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2021-01-20</span> v
+    <span style="color:red;">6.1.04</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.針對pwd.json作加密動作
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2020-06-22</span> v
+    <span style="color:red;">6.1.03</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.移除轉換密碼功能
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2020-06-21</span> v
+    <span style="color:red;">6.1.02</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.移除紀錄程序啟動階段log
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.轉換密碼功能改由熱鍵(command+r)開啟選擇視窗 同時複製到剪貼簿和自動輸入終端機 備註: 複製user > command+r > 選 > 哦~
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2020-06-15</span> v
+    <span style="color:red;">6.1.00</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.紀錄程序啟動階段log
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.增加固定10分鐘自動儲存.sav和.grp 儲存於sav資料夾內備份用
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.增加FileList頁面可將剪貼簿裡的內容轉換成密碼的功能 ex: ssh ips, xxx ssh ips@xxx
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2020-04-08</span> v
+    <span style="color:red;">6.0.9</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加pwd.json使用mySelf字眼當作跳板密碼
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2020-04-06</span> v
+    <span style="color:red;">6.0.8</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正無法登入某些機器問題
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2020-01-22</span> v
+    <span style="color:red;">6.0.7</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增ENTER帶出密碼功能
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.增加下載使用過濾檔功能
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2019-12-31</span> v
+    <span style="color:red;">6.0.6</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加未捕捉到的例外功能
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.增加pwd.json置換密碼功能
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2019-06-11</span> v
+    <span style="color:red;">6.0.4</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加記憶跳板密碼功能
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加機器密碼複製功能
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2018-11-18</span> v
+    <span style="color:red;">6.0.3</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正keep跳板 & 延長至2分鐘ping一次
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2018-11-17</span> v
+    <span style="color:red;">6.0.2</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增快速讀取功能(列表請放入FLqmore)
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.移除免登預設勾起
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2018-05-17</span> v
+    <span style="color:red;">6.0.1</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.貼上來源資料內容將自動斷行且插入於最後
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2018-04-16</span> v
+    <span style="color:red;">6.0.0</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增Group分頁功能 by ice
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2018-04-10</span> v
+    <span style="color:red;">5.5.8</span>
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正多複製分頁 bug
+    <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.取消強制更新限制
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2017-08-21</span> v<span style="color:red;">5.5.7</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正多複製分頁 bug
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2017-08-10</span> v<span style="color:red;">5.5.6</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正免登取消勾取後畫面流程 bug
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2017-08-08</span> v<span style="color:red;">5.5.5</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正5.5.3 bug
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2017-08-08</span> v<span style="color:red;">5.5.3</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增分頁右鍵複製分頁功能
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.簡化FileList,SFileList頁面選項
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2017-06-30</span> v<span style="color:red;">5.5.2</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加FileList,DownloadList,SFileList 可選擇是否要使用免登檔案
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2017-01-19</span> v<span style="color:red;">5.5.0</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.調整Tab頁籤 可拖動
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.優化載入流程 提升用戶體驗
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2017-01-05</span> v<span style="color:red;">5.3.1</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加Tab頁籤 Save Tab功能至FLtab資料夾 & 讀.tab分頁
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.移除跳板去除名稱功能
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.調整FileList版本更新彈跳視窗介面
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-12-29</span> v<span style="color:red;">5.2.6</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加DownloadList頁面 多台機器下載按鈕使用AllFolder路徑
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-12-28</span> v<span style="color:red;">5.2.5</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正快速終端機登入BUG
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-12-28</span> v<span style="color:red;">5.2.4</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加QTerminalList頁面 可勾選無跳板機制
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-12-19</span> v<span style="color:red;">5.2.3</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加DownloadList頁面 讀取更多機器支援多下載功能
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-12-09</span> v<span style="color:red;">5.2.2</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加DownloadList頁面 保留在本機選項 且預設打勾
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.調整DownloadList頁面 保留在何處的字樣顯示
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-12-09</span> v<span style="color:red;">5.2.1</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正DownloadList頁面 讀取更多機器BUG
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-12-02</span> v<span style="color:red;">5.2.0</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加DownloadList頁面 快速終端機登入功能
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.增加DownloadList頁面 讀取更多機器
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-12-01</span> v<span style="color:red;">5.1.8</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.增加FileList頁面 下載可自訂壓縮檔名
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-11-03</span> v<span style="color:red;">5.1.7</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.修正SFileList頁面 解壓縮失敗bug
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-10-14</span> v<span style="color:red;">5.1.6</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.調整FileList,DownloadList,SFileList,QTerminalList頁面 上傳&下載功能 去除掉空白字元
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-10-14</span> v<span style="color:red;">5.1.5</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增自動更新完成後開啟更新項目網頁
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-10-06</span> v<span style="color:red;">5.1.4</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增QTerminalList頁面時間輸入框
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-10-05</span> v<span style="color:red;">5.1.3</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.調整上傳檔案失敗訊息
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-10-04</span> v<span style="color:red;">5.1.2</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增自動更新完成後重啟功能
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-10-04</span> v<span style="color:red;">5.1.1</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增tab頁籤滾輪事件
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-10-04</span> v<span style="color:red;">5.1.0</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增自動更新功能
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-09-23</span> v<span style="color:red;">5.0.2</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.調整頁籤標題
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-09-08</span> v<span style="color:red;">5.0.1</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.調整QTerminalList頁面成下拉捲軸方式
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2016-09-08</span> v<span style="color:red;">5.0.0</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增快速終端機登入功能
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.新增QTerminalList頁面
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2015-12-16</span> v<span style="color:red;">4.0.0</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增下載端口tar檔功能
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2015-11-30</span> v<span style="color:red;">3.0.0</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.新增上傳檔案功能
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2015-04-15</span> v<span style="color:red;">2.0.0</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FileList.jar
+</div>
+
+<br/>
+
+<div>
+    <span style="color:blue;">2012-12-19</span> v<span style="color:red;">1.0.0</span>
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FileList.html
+</div>
+</body>
 </html>
